@@ -185,9 +185,9 @@ body {
 }
 .conB .picture{
     position:relative;
-	width: 300px;
-	height:200px;
-	margin:0 auto;
+	width: auto;
+	height:auto;
+
 	}
 
 .conB a:hover	{
