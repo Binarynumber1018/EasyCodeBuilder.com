@@ -184,7 +184,7 @@ body {
 	text-decoration: none;
 }
 .conB .picture{
-	background-image: url(conB.png);
+	background-image: url(conBsmart.png);
     background-repeat:  no-repeat;/* 画像の繰り返しを指定  */              
 	width:600px;  /* 横幅のサイズを指定    */
 	height:400px;  /* 縦幅のサイズを指定    */
@@ -221,7 +221,7 @@ body {
 		padding: 50px;
 	}
 	.conB .picture{
-		background-image: url(conBsmart.jpg);
+		background-image: url(conB.jpg);
 		position: relative;
 		width: 600px;
 		height: 400px;
