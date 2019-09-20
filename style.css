@@ -184,10 +184,11 @@ body {
 	text-decoration: none;
 }
 .conB .picture{
-    position:relative;
-	width: auto;
-	height:auto;
-
+	background-image: url(conB.png);
+    background-repeat:  no-repeat;/* 画像の繰り返しを指定  */              
+	width:600px;  /* 横幅のサイズを指定    */
+	height:400px;  /* 縦幅のサイズを指定    */
+	opacity:0.8; 
 	}
 
 .conB a:hover	{
@@ -197,12 +198,6 @@ body {
 	);
 }
 
-.conB .photo {
-	min-height: 200px;
-	background-image: url(p08.jpg);
-	background-position: center;
-	background-size: cover;
-}
 @media (min-width:1110px) {
 	.conB h1 {
 		margin-top: -50px;
@@ -221,15 +216,12 @@ body {
 		width: 400px;
 	}
 
-	.conB .photo {
-		flex: 0 0 400px;
-	}
-
 	.conB .text {
 		flex: 1;
 		padding: 50px;
 	}
 	.conB .picture{
+		background-image: url(conBsmart.jpg);
 		position: relative;
 		width: 600px;
 		height: 400px;
